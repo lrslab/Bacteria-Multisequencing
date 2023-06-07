@@ -13,7 +13,7 @@ sed -i 's/simplex./simplex_/g' tmp_file.txt
 sed 's/_/\t/g' tmp_file.txt | awk '{print $1 "\t" $2"_"$5 "\t" $3 "\t" $4 "\t" $6 "\t" $7}' > final_file.txt
 ```
 
-Then we can get the fllowing table
+Then we can get the following table
 
 ```shell
 bac	type	coverage	seed	mis	indels
@@ -29,7 +29,7 @@ Acinetobacter_pittii	R941_ngs	100	seed5	0.26	0.56
 Acinetobacter_pittii	R941_ont	100	seed5	0.31	6.56
 ```
 
-To ensure the accuracy and reliability of our results, we implemented a stringent quality control approach that involved removing the highest and lowest values for each metric at each assembly coverage for each bacterium. We then calculated the average value from the remaining three values to represent the performance of each assembly method for each bacterium. The follwing python code can help us to achieve the target:
+To ensure the accuracy and reliability of our results, we implemented a stringent quality control approach that involved removing the highest and lowest values for each metric at each assembly coverage for each bacterium. We then calculated the average value from the remaining three values to represent the performance of each assembly method for each bacterium. The following python code can help us to achieve the target:
 
 ```python
 data = {}
@@ -61,7 +61,7 @@ for i in data.keys():
         print(i.replace("_", "\t") + "\t" + str(mis) + "\t" + str(indel))
 ```
 
-We get the follwing table (please add the header):
+We get the following table (please add the header):
 
 ```shell
 bac	type	coverage	mis	indels
