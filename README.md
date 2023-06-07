@@ -5,9 +5,9 @@
 
 **Quick links:**
 
-- The published paper featuring the presented results can be access here (unpublished).
-- The raw data in *fastq* file is available here (NCBI processing).
-- The high quality genome references are [here](https://dataview.ncbi.nlm.nih.gov/object/PRJNA980403?reviewer=nm3jupm7mho19rrbhoborf8ec2) (Reviewer link).
+- The published paper featuring the presented results can be access here.
+- The raw data in *fastq* file is available [here](https://dataview.ncbi.nlm.nih.gov/object/PRJNA980403?reviewer=nm3jupm7mho19rrbhoborf8ec2) (Reviewer link).
+- The high quality genome references are here (NCBI processing).
 - The assembled drafts are available are [here](https://figshare.com/s/32dd2eb0f16e31a1dd2f) for *Acinetobacter  pittii*.
 - The assembled drafts are available are [here](https://figshare.com/s/804637fed3ad7f6d5a9c) for *Bacillus  cereus*.
 - The assembled drafts are available are [here](https://figshare.com/s/f0c05b7de5340f7d61a3) for *Enterococcus  faecium*.
