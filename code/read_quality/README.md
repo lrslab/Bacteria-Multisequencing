@@ -21,9 +21,9 @@ ggplot(df, aes(x=Acc, fill=method)) + geom_density(adjust=10, alpha=0.8) +
 	scale_y_continuous(name="Probability Density Function (PDF)") + theme_bw() +
 	scale_fill_manual(values=c("R941"="#9ecae1", "R1041_duplex"="#fc9272", "R1041_simplex" ="#fec44f")) +
 	theme(axis.text=element_text(size=12, family = "Arial", color="black"),
-        axis.title=element_text(size=12, family = "Arial", color="black"),
-        legend.text = element_text(size=12, family = "Arial", color="black"),
-        legend.title = element_blank())
+        	axis.title=element_text(size=12, family = "Arial", color="black"),
+        	legend.text = element_text(size=12, family = "Arial", color="black"),
+        	legend.title = element_blank())
 ```
 
 Demo of figure for read accuracy
@@ -59,9 +59,9 @@ ggplot(df1, aes(x=type, fill=method, y=ratio)) +
 	scale_y_continuous(name = "Mismatch proportion (%)", limits = c(0,5), breaks = seq(0,5,0.5)) +
 	scale_fill_manual(values=c("R941"="#9ecae1", "R1041_duplex"="#fc9272", "R1041_simplex" ="#fec44f")) +
 	theme(axis.text=element_text(size=12, colour = "black"),
-        axis.title.y=element_text(size=12, colour = "black"),
-        legend.text = element_text(size=12, colour = "black"),
-        legend.title = element_blank())
+        	axis.title.y=element_text(size=12, colour = "black"),
+        	legend.text = element_text(size=12, colour = "black"),
+        	legend.title = element_blank())
 ```
 
 Demo of figure for mismatch
@@ -95,9 +95,9 @@ ggplot(df2, aes(x=base, y=value, group=method, color=method, )) +
 	scale_y_continuous(name="Average accuracy of homopolymer detection (%)", limits = c(70,100), breaks = seq(70,100,2)) + 
 	scale_color_manual(values=c("R941"="#9ecae1", "R1041_duplex"="#fc9272", "R1041_simplex" ="#fec44f")) + xlab("") + 
 	theme(axis.text=element_text(size=12, family = "Arial", color="black"),
-        axis.title=element_text(size=12, family = "Arial", color="black"),
-        legend.text = element_text(size=12, family = "Arial", color="black"),
-        legend.title = element_blank())
+        	axis.title=element_text(size=12, family = "Arial", color="black"),
+        	legend.text = element_text(size=12, family = "Arial", color="black"),
+        	legend.title = element_blank())
 ```
 
 Demo of figure for homopolymer accuracy
