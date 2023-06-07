@@ -5,17 +5,17 @@
 
 **Quick links:**
 
-- The published paper featuring the presented results can be access here.
-- The raw data in *fastq* file is available here.
-- The high quality genome references are here (https://dataview.ncbi.nlm.nih.gov/object/PRJNA980403?reviewer=nm3jupm7mho19rrbhoborf8ec2).
-- The assembled drafts are available are here for *Acinetobacter  pittii*.
-- The assembled drafts are available are here for *Bacillus  cereus*.
-- The assembled drafts are available are here for *Enterococcus  faecium*.
-- The assembled drafts are available are here for *Escherichia  coli*.
-- The assembled drafts are available are here for *Klebsiella pneumoniae*.
-- The assembled drafts are available are here for *Pseudomonas  aeruginosa*.
-- The assembled drafts are available are  here for *Salmonella  enterica*.
-- The assembled drafts are available are here for *Staphylococcus  aureus*.
+- The published paper featuring the presented results can be access here (unpublished).
+- The raw data in *fastq* file is available here (NCBI processing).
+- The high quality genome references are [here](https://dataview.ncbi.nlm.nih.gov/object/PRJNA980403?reviewer=nm3jupm7mho19rrbhoborf8ec2) (Reviewer link).
+- The assembled drafts are available are [here](https://figshare.com/s/32dd2eb0f16e31a1dd2f) for *Acinetobacter  pittii*.
+- The assembled drafts are available are [here](https://figshare.com/s/804637fed3ad7f6d5a9c) for *Bacillus  cereus*.
+- The assembled drafts are available are [here](https://figshare.com/s/f0c05b7de5340f7d61a3) for *Enterococcus  faecium*.
+- The assembled drafts are available are [here](https://figshare.com/s/db4681817ea86477c67a) for *Escherichia  coli*.
+- The assembled drafts are available are [here](https://figshare.com/s/168c1217d8c9c6c61ed0) for *Klebsiella pneumoniae*.
+- The assembled drafts are available are [here](https://figshare.com/s/14e6f7004443ce8e5bf8) for *Pseudomonas  aeruginosa*.
+- The assembled drafts are available are  [here](https://figshare.com/s/6a99c108b21fd0c74d3c) for *Salmonella  enterica*.
+- The assembled drafts are available are [here](https://figshare.com/s/85a579eaa45fb4ddf20e) for *Staphylococcus  aureus*.
 
 
 
