@@ -21,7 +21,7 @@
 
 **The taxonomy for eight bacteria：**
 
-| Domain   |     Phylum     |        Class        |      Order       |       Family       |     Genes      |         Species          |
+| Kingdom   |     Phylum     |        Class        |      Order       |       Family       |     Genes      |         Species          |
 | -------- | :------------: | :-----------------: | :--------------: | :----------------: | :------------: | :----------------------: |
 | Bacteria | Proteobacteria | Gammaproteobacteria | Pseudomonadales  |   Moraxellaceae    | Acinetobacter  |  *Acinetobacter pittii*  |
 | Bacteria | Proteobacteria | Gammaproteobacteria | Enterobacterales | Enterobacteriaceae |  Escherichia   |    *Escherichia coli*    |
