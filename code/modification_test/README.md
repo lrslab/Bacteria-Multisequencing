@@ -50,7 +50,7 @@ ab1_chrom_pilon_pilon_pilon	210611	C	0	2	0	8	0.0	0.2	0.0	0.8
 ab1_chrom_pilon_pilon_pilon	230481	C	0	0	0	7	0.0	0.0	0.0	1.0
 ```
 
-Demo code for plotting
+Demo code for plotting:
 
 ```R
 ggplot(df_3, aes(x=group,y=num, fill=base)) + 
@@ -70,7 +70,7 @@ ggplot(df_3, aes(x=group,y=num, fill=base)) +
                              "T" ="#eeb401"))
 ```
 
-Demo figure
+Demo figure:
 
-[alt text](Demo.png)
+![alt text](Demo.png)
 
