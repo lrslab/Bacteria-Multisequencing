@@ -1,4 +1,4 @@
-To check whther the modification lead to this kind of substutitions, we used the whole-genome amplication datasets of *Acinetobacter pittii* generated from the R10.4.1 and R9.4.1 sequencing.
+To check whther the modification lead to this kind of substutitions, we used the whole-genome amplication datasets of *Acinetobacter pittii* generated from the R10.4.1 and R9.4.1 sequencing as the negative control.
 
 The following cammands were used to map reads against the reference.
 
