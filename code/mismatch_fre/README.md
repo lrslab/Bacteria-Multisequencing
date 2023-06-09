@@ -58,3 +58,19 @@ R941	ab1	G2T	0.0571429
 R941	ab1	T2A	0
 ```
 
+Demo for plotting
+
+```R
+ggplot(df_2, aes(x=type, fill=group, y=value, group=group)) + 
+  geom_bar(stat="identity", position='dodge') + facet_wrap("~bac") + theme_bw() +
+  scale_x_discrete(name="Single base variation type (Ref2Query)") +
+  scale_y_continuous(name="Normalized site number") +
+  scale_fill_manual(values=c("R9.4.1"= "#9ecae1","R10.4.1_simplex" = "#fec44f")) + 
+  theme(axis.text.y=element_text(size=12, color="black"),
+        axis.text.x=element_text(size=12, color="black", angle=45, vjust = 0.6),
+        axis.title=element_text(size=12, color="black"),
+        legend.text = element_text(size=12, color="black"),
+        strip.text = element_text(size=12, color="black",face="italic"),
+        legend.title = element_blank(), legend.position = "bottom")
+```
+
