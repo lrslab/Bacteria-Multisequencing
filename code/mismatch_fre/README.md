@@ -21,21 +21,21 @@ Cammands for normalizing the substitution base number for different 12 types.
 
 ```shell
 # A base
-cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "A2C" | sort | uniq -c  | wc -l | awk '{print "R941\tab1\tA2C\t" $1/35}' >> out.txt
-cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "A2G" | sort | uniq -c  | wc -l | awk '{print "R941\tab1\tA2G\t" $1/35}' >> out.txt
-cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "A2T" | sort | uniq -c  | wc -l | awk '{print "R941\tab1\tA2T\t" $1/35}' >> out.txt
+cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "A2C" | wc -l | awk '{print "R941\tab1\tA2C\t" $1/35}' >> out.txt
+cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "A2G" | wc -l | awk '{print "R941\tab1\tA2G\t" $1/35}' >> out.txt
+cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "A2T" | wc -l | awk '{print "R941\tab1\tA2T\t" $1/35}' >> out.txt
 # C base
-cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "C2A" | sort | uniq -c  | wc -l | awk '{print "R941\tab1\tC2A\t" $1/35}' >> out.txt
-cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "C2G" | sort | uniq -c  | wc -l | awk '{print "R941\tab1\tC2G\t" $1/35}' >> out.txt
-cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "C2T" | sort | uniq -c  | wc -l | awk '{print "R941\tab1\tC2T\t" $1/35}' >> out.txt
+cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "C2A" | wc -l | awk '{print "R941\tab1\tC2A\t" $1/35}' >> out.txt
+cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "C2G" | wc -l | awk '{print "R941\tab1\tC2G\t" $1/35}' >> out.txt
+cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "C2T" | wc -l | awk '{print "R941\tab1\tC2T\t" $1/35}' >> out.txt
 # G base
-cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "G2A" | sort | uniq -c  | wc -l | awk '{print "R941\tab1\tG2A\t" $1/35}' >> out.txt
-cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "G2C" | sort | uniq -c  | wc -l | awk '{print "R941\tab1\tG2C\t" $1/35}' >> out.txt
-cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "G2T" | sort | uniq -c  | wc -l | awk '{print "R941\tab1\tG2T\t" $1/35}' >> out.txt
+cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "G2A" | wc -l | awk '{print "R941\tab1\tG2A\t" $1/35}' >> out.txt
+cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "G2C" | wc -l | awk '{print "R941\tab1\tG2C\t" $1/35}' >> out.txt
+cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "G2T" | wc -l | awk '{print "R941\tab1\tG2T\t" $1/35}' >> out.txt
 # T base
-cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "T2A" | sort | uniq -c  | wc -l | awk '{print "R941\tab1\tT2A\t" $1/35}' >> out.txt
-cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "T2C" | sort | uniq -c  | wc -l | awk '{print "R941\tab1\tT2C\t" $1/35}' >> out.txt
-cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "T2G" | sort | uniq -c  | wc -l | awk '{print "R941\tab1\tT2G\t" $1/35}' >> out.txt
+cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "T2A" | wc -l | awk '{print "R941\tab1\tT2A\t" $1/35}' >> out.txt
+cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "T2C" | wc -l | awk '{print "R941\tab1\tT2C\t" $1/35}' >> out.txt
+cat *snps | awk '{print $1 "\t" $3 "\t" $4 "2" $5 }' | grep "T2G" | wc -l | awk '{print "R941\tab1\tT2G\t" $1/35}' >> out.txt
 ```
 
 Demo for output file
