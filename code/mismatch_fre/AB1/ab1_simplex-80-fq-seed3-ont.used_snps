@@ -1,5 +1,3 @@
-ab1_chrom_pilon_pilon_pilon	contig_4	1021994	.	TTG	128
-ab1_chrom_pilon_pilon_pilon	contig_4	1022001	.	C	138
 ab1_chrom_pilon_pilon_pilon	contig_2	989	.	T	1028500
 ab1_chrom_pilon_pilon_pilon	contig_2	2995	.	A	1026493
 ab1_chrom_pilon_pilon_pilon	contig_2	4341	.	T	1025146
@@ -82,4 +80,3 @@ ab1_chrom_pilon_pilon_pilon	contig_2	3506331	.	T	1419918
 ab1_chrom_pilon_pilon_pilon	contig_2	3668380	C	T	1257868
 ab1_chrom_pilon_pilon_pilon	contig_2	3679040	.	T	1247208
 ab1_chrom_pilon_pilon_pilon	contig_2	3785216	.	A	1141031
-ab1_chrom_pilon_pilon_pilon	contig_3	1021469	C	T	2396
