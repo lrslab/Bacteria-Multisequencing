@@ -2,8 +2,6 @@ The cammands for how to count the substitution site number among the 35 genome d
 
 Here we used the results of Quast for **AB1 R941 data** as a example.
 
-
-
 Demo for data formot
 
 ```shell
@@ -18,8 +16,6 @@ kp1_genome_pilon_pilon_pilon	contig_2	114621	C	.	3909873
 kp1_genome_pilon_pilon_pilon	contig_2	151480	C	.	3873136
 kp1_genome_pilon_pilon_pilon	contig_2	238100	G	.	3786517
 ```
-
-
 
 Cammands for normalizing the substitution base number for different 12 types.
 
@@ -74,3 +70,6 @@ ggplot(df_2, aes(x=type, fill=group, y=value, group=group)) +
         legend.title = element_blank(), legend.position = "bottom")
 ```
 
+Demo for figure
+
+![alt text](Demo.png)
