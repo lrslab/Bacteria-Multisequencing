@@ -1,4 +1,4 @@
-## STEP1. find the potential modification sites
+## STEP1. Find the potential modification sites
 
 ```shell
 minimap -ax map-ont -t ${threads} ${assembler} ${simplex_fastq} > test.sam
@@ -14,7 +14,7 @@ grep -v Chr test.dir_site.txt | awk '{print $1 "\t" $2-1 "\t" $2}' > test.dir_si
 
 
 
-## STEP2. polish sites with duplex reads
+## STEP2. Polish sites with duplex reads
 
 ```shell
 minimap -ax map-ont -t ${threads} ${assembler} ${duplex_fastq} > duplex.sam
@@ -26,8 +26,6 @@ samtools mpileup -f ${assembler} -l test.dir_site.bed -q 30 --no-output-ins --no
 
 python count.py -in duplex.mpileup.txt > results.txt
 ```
-
-
 
 **the demo for results:**
 
@@ -47,4 +45,28 @@ contig_7	344011	C	0	19	0	4	0.0	0.8260869565217391	0.0	0.17391304347826086	T
 
 `P_A`, `P_T`, `P_G`, `P_C` are the proportion of reads which were mapped as A, T, G, and C base at potential modification sites.
 
-`polish_base`  is the base after polished.  
+`polish_base`  is the base after polished. 
+
+**Note**: The resulting sites are just selected by the errors proportion. If you believe that any sites are correct, please manually remove them. The site information in **red** indicates an ambiguous site that is difficult to identify as an error.
+
+
+
+## STEP3. Replace any erroneous bases in the assembler with their correct counterparts
+
+```shell
+cat results.txt | grep -v pos | awk '{if ($12 == "C") print $0}' | awk '{print $1 "\t" $2-1 "\t" $2}' > C.bed
+cat results.txt | grep -v pos | awk '{if ($12 == "G") print $0}' | awk '{print $1 "\t" $2-1 "\t" $2}' > G.bed
+cat results.txt | grep -v pos | awk '{if ($12 == "T") print $0}' | awk '{print $1 "\t" $2-1 "\t" $2}' > T.bed
+cat results.txt | grep -v pos | awk '{if ($12 == "A") print $0}' | awk '{print $1 "\t" $2-1 "\t" $2}' > A.bed
+
+bedtools maskfasta -fi ${assembler} -bed A.bed -mc A -fo tmp1.fa
+bedtools maskfasta -fi tmp1.fa -bed T.bed -mc T -fo tmp2.fa
+bedtools maskfasta -fi tmp2.fa -bed G.bed -mc G -fo tmp3.fa
+bedtools maskfasta -fi tmp3.fa -bed C.bed -mc C -fo final.fa
+
+# remove the temporaryte FASTA files
+rm tmp1.fa tmp2.fa tmp3.fa
+```
+
+The **final.fa**  is the final polished genome assembler.
+
