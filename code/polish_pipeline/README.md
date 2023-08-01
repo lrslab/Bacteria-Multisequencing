@@ -14,7 +14,7 @@ grep -v Chr test.dir_site.txt | awk '{print $1 "\t" $2-1 "\t" $2}' > test.dir_si
 
 
 
-## STEP2. Polish sites with duplex reads
+## STEP2. Polish sites using duplex reads
 
 ```shell
 minimap -ax map-ont -t ${threads} ${assembler} ${duplex_fastq} > duplex.sam
