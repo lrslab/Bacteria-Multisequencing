@@ -6,15 +6,15 @@ Demo for data formot
 
 ```shell
 #ref	drafts	position_in_ref	base_in_ref	base_in_drafts	position_in_drafts
-kp1_genome_pilon_pilon_pilon	contig_3	621640	A	T	61008
-kp1_genome_pilon_pilon_pilon	contig_2	35312	T	G	3989182
-kp1_genome_pilon_pilon_pilon	contig_2	40312	.	A	3984182
-kp1_genome_pilon_pilon_pilon	contig_2	47812	.	G	3976681
-kp1_genome_pilon_pilon_pilon	contig_2	53777	A	.	3970715
-kp1_genome_pilon_pilon_pilon	contig_2	108652	T	.	3915841
-kp1_genome_pilon_pilon_pilon	contig_2	114621	C	.	3909873
-kp1_genome_pilon_pilon_pilon	contig_2	151480	C	.	3873136
-kp1_genome_pilon_pilon_pilon	contig_2	238100	G	.	3786517
+ab1_genome_pilon_pilon_pilon	contig_3	621640	A	T	61008
+ab1_genome_pilon_pilon_pilon	contig_2	35312	T	G	3989182
+ab1_genome_pilon_pilon_pilon	contig_2	40312	.	A	3984182
+ab1_genome_pilon_pilon_pilon	contig_2	47812	.	G	3976681
+ab1_genome_pilon_pilon_pilon	contig_2	53777	A	.	3970715
+ab1_genome_pilon_pilon_pilon	contig_2	108652	T	.	3915841
+ab1_genome_pilon_pilon_pilon	contig_2	114621	C	.	3909873
+ab1_genome_pilon_pilon_pilon	contig_2	151480	C	.	3873136
+ab1_genome_pilon_pilon_pilon	contig_2	238100	G	.	3786517
 ```
 
 Cammands for normalizing the substitution base number for different 12 types.
