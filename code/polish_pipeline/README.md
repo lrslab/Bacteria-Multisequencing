@@ -1,3 +1,5 @@
+The latest one is available at https://github.com/lrslab/Hammerhead/tree/main/Duplex_polishing.
+
 ## STEP1. Find the potential modification sites
 
 ```shell
@@ -27,7 +29,7 @@ samtools mpileup -f ${assembler} -l test.dir_site.bed -q 30 --no-output-ins --no
 python count.py -in duplex.mpileup.txt > results.txt
 ```
 
-**the demo for results:**
+**The demo for results:**
 
 ```shell
 #chr	pos	base	N_A	N_T	N_G	N_C	P_A	P_T	P_G	P_C	polish_base
@@ -64,7 +66,7 @@ bedtools maskfasta -fi tmp1.fa -bed T.bed -mc T -fo tmp2.fa
 bedtools maskfasta -fi tmp2.fa -bed G.bed -mc G -fo tmp3.fa
 bedtools maskfasta -fi tmp3.fa -bed C.bed -mc C -fo final.fa
 
-# remove the temporaryte FASTA files
+# remove the temporary FASTA files
 rm tmp1.fa tmp2.fa tmp3.fa
 ```
 
