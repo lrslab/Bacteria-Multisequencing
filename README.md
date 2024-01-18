@@ -10,18 +10,18 @@ Open Repository of Scripts and Resources for Nanopore (R1041 simplex/ R1041 dupl
 
 - The comparison of read quality is available [here](https://github.com/lrslab/Bacteria-Multisequencing/tree/main/code/read_quality).
 - The comparison of assembly quality is available [here](https://github.com/lrslab/Bacteria-Multisequencing/tree/main/code/genome_assembly).
-- The frequency stats of substitution type in assemblies is available [here](https://github.com/lrslab/Bacteria-Multisequencing/tree/main/code/mismatch_fre).
+- The frequency stats of substitution type in assemblies are available [here](https://github.com/lrslab/Bacteria-Multisequencing/tree/main/code/mismatch_fre).
 - The statistics of read numbers and proportions for correct and incorrect matches at error-prone sites are available [here](https://github.com/lrslab/Bacteria-Multisequencing/tree/main/code/modification_test).
 - The identification of potential modification sites in the genome is available [here](https://github.com/lrslab/Hammerhead).
-- The genome polishing at the sites level is available [here](https://github.com/lrslab/Bacteria-Multisequencing/tree/main/code/polish_pipeline).
+- The genome polishing script is available [here](https://github.com/lrslab/Hammerhead/tree/main/Duplex_polishing).
 
 
 
 ### Resource
 
-- The published paper featuring the presented results can be access here.
+- The published paper featuring the presented results can be accessed here.
 - The raw data in *fastq* file is available [here](https://dataview.ncbi.nlm.nih.gov/object/PRJNA980403?reviewer=nm3jupm7mho19rrbhoborf8ec2) (Reviewer link).
-- The high quality genome references are here (NCBI processing).
+- The high-quality genome references are here (NCBI processing).
 - The assembled drafts are available are [here](https://figshare.com/s/32dd2eb0f16e31a1dd2f) for *Acinetobacter  pittii*.
 - The assembled drafts are available are [here](https://figshare.com/s/804637fed3ad7f6d5a9c) for *Bacillus  cereus*.
 - The assembled drafts are available are [here](https://figshare.com/s/f0c05b7de5340f7d61a3) for *Enterococcus  faecium*.
