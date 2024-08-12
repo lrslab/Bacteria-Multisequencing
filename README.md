@@ -13,7 +13,7 @@ Open Repository of Scripts and Resources for Nanopore (R1041 simplex/ R1041 dupl
 - The frequency stats of substitution type in assemblies are available [here](https://github.com/lrslab/Bacteria-Multisequencing/tree/main/code/mismatch_fre).
 - The statistics of read numbers and proportions for correct and incorrect matches at error-prone sites are available [here](https://github.com/lrslab/Bacteria-Multisequencing/tree/main/code/modification_test).
 - The identification of potential modification sites in the genome is available [here](https://github.com/lrslab/Hammerhead).
-- The genome polishing script is available [here](https://github.com/lrslab/Hammerhead/tree/main/Duplex_polishing).
+- The genome polishing script is available [here](https://hammerhead-documentation.readthedocs.io/en/latest/#assemblies-polish).
 
 
 
