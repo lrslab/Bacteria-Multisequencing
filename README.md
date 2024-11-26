@@ -19,8 +19,8 @@ Open Repository of Scripts and Resources for Nanopore (R1041 simplex/ R1041 dupl
 
 ### Resource
 
-- The published paper featuring the presented results can be accessed here.
-- The raw data in *fastq* file is available [here](https://dataview.ncbi.nlm.nih.gov/object/PRJNA980403?reviewer=nm3jupm7mho19rrbhoborf8ec2) (Reviewer link).
+- The published paper featuring the presented results can be accessed [here](https://genome.cshlp.org/content/34/11/2025).
+- The raw data in *fastq* file is available [here](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA980403).
 - The high-quality genome references are here (NCBI processing).
 - The assembled drafts are available are [here](https://figshare.com/s/32dd2eb0f16e31a1dd2f) for *Acinetobacter  pittii*.
 - The assembled drafts are available are [here](https://figshare.com/s/804637fed3ad7f6d5a9c) for *Bacillus  cereus*.
